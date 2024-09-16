@@ -1,0 +1,9 @@
+extends ./layout/app
+
+block contenido 
+    div(class="py-10 flex flex-col items-center justify-center min-h-screen")
+        h2(class="text-4xl font-extrabold text-center text-gray-800") ¡Oops! Página no encontrada
+        p(class="mt-4 text-lg text-center text-gray-600") Parece que la página que estás buscando no existe o ha sido movida.
+        div(class="mt-6")
+            a(class="text-blue-500 underline" href="/") Volver al inicio
+        img(class="mt-8 w-1/2 md:w-1/4" src="/path/to/404-image.png" alt="Página no encontrada")
